@@ -32,7 +32,8 @@ python3 -m pytest tests/test_parsing.py -v --tb=short  # Single file
 
 - **Python**: 3.14+ (not 3.13 or earlier)
 - **Neo4j**: Must be running. Start with `neo4j start` or `python scripts/start_services.py --neo4j`
-- **Password**: Default `password` in `config.yaml`. Update after first login at http://localhost:7474 (login `neo4j/neo4j`, set new password)
+- **Password**: Default `CHANGEME` in `config.yaml`. Update after first login at http://localhost:7474 (login `neo4j/neo4j`, set new password)
+- **Security**: `config.yaml` and `.env` are gitignored. Copy `config.yaml.example` if it exists.
 
 ## Key Architecture
 

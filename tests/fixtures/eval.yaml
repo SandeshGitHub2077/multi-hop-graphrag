@@ -1,0 +1,24 @@
+queries:
+  - query: "What is HTTP?"
+    expected_sections:
+      - "RFC 9110/3.1"
+      - "RFC 7231/3"
+    intent: factual
+
+  - query: "Where is the CONNECT method defined?"
+    expected_sections:
+      - "RFC 9110/9.3.6"
+      - "RFC 7231/4.3.6"
+    intent: navigation
+
+  - query: "Difference between GET and POST?"
+    expected_sections:
+      - "RFC 9110/9.1"
+      - "RFC 7231/4.1"
+    intent: comparison
+
+  - query: "List all HTTP methods"
+    expected_sections:
+      - "RFC 9110/9.1"
+      - "RFC 7231/4"
+    intent: list

@@ -1,0 +1,14 @@
+graph:
+  uri: bolt://localhost:7687
+  username: neo4j
+  password: CHANGEME  # Replace with your Neo4j password
+
+embeddings:
+  model: BAAI/bge-base-en-v1.5
+  dimension: 768
+
+vector_store:
+  index_dir: index
+
+data:
+  data_dir: Data
